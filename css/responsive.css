@@ -1,0 +1,223 @@
+﻿
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .logotp { width: 165px !important; margin-top: 10px !important; }
+    .navbar-nav > li > a, .nav li.active a { padding: 34px 13px 29px 13px; }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    /*.HomeBanner .col-sm-offset-2 { margin-left: 20.666667% !important; }*/
+}
+
+@media only screen and (max-width:960px) {
+    .logotp { width: 50% !important; margin-top: 35px !important; }
+    #bs-example-navbar-collapse-1 { padding: 0; }
+    .navbar-nav { margin: 7.5px 0px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .TTaxUsers h1 { font-size: 28px; text-align: center; line-height: 1.5;; padding: 7px 6px 7px 10px; }
+    .TTaxUsers span.gettxt { font-size: 20px; }
+    .btnstyle1 { font-size: 20px; }
+    .col-sm-offset-2 { margin-left: 13.666667% !important; }
+    .HomeBanner { padding-top: 63px; }
+    .heading h2 { padding-bottom: 0px !important; }
+    h2 { font-size: 24px; }
+    .heading .exp { font-size: 24px; }
+    .ExpressTTaxFilingText p { padding-top: 0px; font-size: 15px; }
+    .ExpressTTaxFilingText p span { font-size: 15px; }
+    .mTop37 { margin-top: 26px; width: 50px; }
+    .TTax2290 { width: 100px; height: 100px; }
+    .TTaxMy2290 h2 { line-height: 32px; font-size: 18px; }
+    .TTaxWork p { padding-top: 0px; font-size: 15px; line-height: 25px; }
+    .TTaxWork p span { font-size: 15px; }
+    .TTaxWork_Title { font-size: 24px; }
+    .TTaxMy2290 { padding: 6px 30px; }
+    .TTaxMy2290 p { font-size: 15px; }
+    .TTaxMy2290 h2 { font-size: 16px; }
+    /*.TTaxWork { min-height: 480px; }*/
+    .IRSForm h2 { font-size: 24px; }
+    .IRSForm p { font-size: 15px; padding-top: 0px; }
+    .TTaxProviderContent h2 span { font-size: 24px; }
+    .TTaxProviderContent h2 { font-size: 24px; }
+    .TTaxProviderContent p { font-size: 14px; }
+    .AccordianTitle h2 { font-size: 24px; margin-top: 10px; }
+    .accodiantxt { font-size: 18px; }
+    .TTaxVideoTitle h2 { font-size: 24px; margin-top: 10px; }
+    .mTop45 { margin-top: 10px; }
+    .TTaxBlogTitle h3 { font-size: 24px; margin-top: 0px; }
+    .TTaxBlogTitle h2 { font-size: 24px; line-height: 26px; }
+    .TTaxBlog h4 { font-size: 20px; padding-top: 4px; }
+    .TTaxBlog p { margin-bottom: 20px; }
+    .image_1 { width: 40px; }
+    .supportico ul { padding: 10px; }
+    .irslogo { margin: 15px auto 20px auto; }
+    img { margin-bottom: 10px; }.ExpressTTaxFiling{    padding: 25px 0;}.TTaxWork p{line-height: 1.6;}
+  .video{margin-top:50px !important;}
+  .list-unstyled {padding-left: 0px;list-style: none;}
+  .btnstyle2{padding:8px;}
+   
+}
+
+@media only screen and (max-width:991px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand { margin-left: 0px; padding-right: 5px; }
+    .nav li.active a, .nav li a { padding: 24px 7px 22px 7px; font-size: 13px; }
+    .logotp { width: 130px !important; margin-top: 9px !important; }
+    .irs-icon { display: none !important; }
+    .supportico ul li span { float: none !important; line-height: 25px; padding-left: 17px; }
+    .navbar-right { margin-right: 0px; }
+    #mainNav .row { margin-bottom: 0px; }
+    .unordered_list li{font-size:15px;}
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .TTaxVideosFiling img { max-width: 205px; }
+    .playbtn { top: 114px; left: 63px; }
+    .TTaxVideosFiling { padding-right: 0px; }
+    .TTaxVideosFiling h3 { display: flex; align-items: flex-end; justify-content: space-around; }
+    .heading h2, .heading h2 span { font-size: 24px; }
+    .mt30 { margin-top: 30px; }
+    .TTaxMy2290 h2 { margin: 10px 0px 0px 0px; }
+    .akordeon-item.expanded .akordeon-heading, .akordeon-heading { font-size: 18px !important; }
+    .accodiantxt { font-size: 15px; }
+    .faqclick a, .blogclick a { font-size: 16px; }
+    .mobile_spce { margin-top: 20px; }
+    .TTaxProviderContent p { margin-top: 10px !important; }
+    .TTaxVideosFiling h3, .supportico ul li span { font-size: 15px; }
+    .TTaxBlog p { font-size: 15px; }
+    .TTaxBlog h4 { font-size: 16px; }
+    .ExpressTTaxFiling {     padding: 25px 0; }
+    .heading h2, .TTaxProviderContent h2,.TTaxWork_Title h2_h .IRSForm h2,.TTaxBlogTitle h2,.ContactTitle h2{margin-top:10px;}
+    /*.box .col-sm-12{width:48% !important;}*/
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-nav > li > a { padding: 7px 5px 7px 15px !important; margin: 0px; text-align: left; }
+    .irs-icon { display: none !important; }
+    .logotp { width: 100% !important; margin-top: 0px !important; }
+    .TTaxMy2290 { margin: 0 auto; }
+    .TTaxVideosFiling { float: none; margin: 10px auto !important; padding-left: 0px; margin-bottom: 20px; padding-right: 0px; }
+    .akordeon-heading {    float: none !important;
+    padding: 5px 10px 5px 10px; }
+    .akordeon-item { margin-bottom: 10px; border: 1px solid #ddd !important; }
+    .akordeon-item-head-container { position: initial !important; }
+    .akordeon .akordeon-item.expanded .akordeon-item-body.akordeon-border-bottom { height: auto !important; border-bottom: none !important; }
+    .akordeon-item .akordeon-item-head { height: auto !important; }
+    .mt_10 { margin-bottom: 10px; display: inline-block; }
+    .nav > li { float: none; }
+    .navbar-right { margin-top: 37px; }
+    .ExpressTTaxFiling { padding: 20px 0; }
+    .AccordianTitle h2, .TTaxVideoTitle h2, .TTaxBlogTitle h3 { margin-top: 0px; }
+    .TTaxBlog h4 { padding-top: 14px; }
+    .TTaxBlog p { margin-bottom: 20px; }
+    .supportico ul li span { display: block; text-align: left; }
+    .nav li { margin: 0px; }
+    .navbar { background: #FFF; }
+    .navbar-nav { margin-top: 10px; }
+    .navbar { padding-bottom: 15px !important; }
+    .navbar-collapse { border: none; }
+    .logotp { width: 184px !important; margin: 0px !important; }
+    .navbar-toggle { margin-top: 24px; }
+    .heading .exp { font-size: 28px; }
+    h2, .TTaxWork_Title, .TTaxProviderContent h2 span, .TTaxProviderContent h2, .AccordianTitle h2, .TTaxVideoTitle h2, .TTaxBlogTitle h2 { font-size: 18px; line-height: 20px; }
+    .TTaxMy2290 h2 { font-size: 24px; line-height: initial; margin-top: 10px; }
+    .TTaxProviderContent p { line-height: 25px; }
+    .faqclick, .blogclick a { font-size: 15px; margin-top: 0px; }
+    .TTaxBlog h4 { font-size: 25px; }
+    .supportico ul li span { line-height: 20px; }
+    .heading h2, .heading h2 span { padding-bottom: 0px; font-size: 18px; }
+    .HomeBanner { background-image: url(../images/mobile_banner.jpg); min-height: inherit; padding-top: 70px; }
+    .HomeBannerContent { padding: 15px 0px 15px 0px; }
+    .playbtn { top: 82px; left: 106px; }
+    .TTaxVideosFiling img { width: 100%; max-width: initial; }
+    .mail { font-size: 15px; }
+    .navbar { padding-bottom: 0px !important; }
+    .but_1 { margin-top: 15px; }
+    .navbar-header { margin: 5px 0; }
+    .TTaxUsers h1 { padding: 0px; font-size: 20px; line-height: 1.6; }
+    .btnstyle1 { font-size: 16px; margin: 0; }
+    .taC { margin-top: 7px; margin-bottom: 0px; }
+    .TTaxUsers span.gettxt { font-size: 16px; }
+    h2 { font-size: 18px; line-height: 25px; }
+    .heading .exp { font-size: 18px; margin-top: 0px; }
+    .ExpressTTaxFilingText p { padding-top: 5px; line-height: 1.6; font-size: 14px; margin-bottom: 0px; }
+    .ExpressTTaxFilingText p span { font-size: 14px; }
+    .ExpressTTaxFilingText { margin-top: 0px; }
+    .TTax2290 { width: 143px; height: 143px; border-radius: 71px; }
+    .mTop37 { margin-top: 17px; width: 45%; }
+    .TTaxMy2290 h2 { font-size: 16px; }
+    .TTaxMy2290 p { font-size: 14px; margin-bottom: 0px; }
+    .TTaxMy2290 { padding: 3px 15px 7px 15px; }
+    .TTax2290 { width: 60px; height: 60px; border-radius: 70px; }
+    .logotp { width: 146px !important; }
+    .navbar-toggle { margin-bottom: 8px; margin-top: 10px; }
+    .h2_h { font-size: 18px; margin-bottom: 0px; }
+    .TTaxWork p { padding-top: 0px; font-size: 14px; line-height: 20px; margin-bottom: 5px; }
+    .TTaxWork p span { font-size: 14px; }
+    .IRSForm h2 { font-size: 18px; }
+    .IRSForm p { font-size: 14px; line-height: 20px; padding-top: 10px; margin-bottom: 10px; }
+    .IRSFormBtn { font-size: 15px; }
+    .TTaxProviderContent h2 span { font-size: 18px; line-height: 22px; }
+    .TTaxProviderContent p { line-height: 20px; margin-top: 0px !important; font-size: 14px; }
+    .TTaxProviderContent h2 { font-size: 18px; }
+    .akordeon-item.expanded .akordeon-heading { margin-left: 0px !important; font-size: 15px; }
+    .accodiantxt { font-size: 14px; line-height: 20px; margin-bottom: 0px; }
+    .faqclick { font-size: 15px; margin-top: 0px; padding-top: 0px; margin-bottom: 0px; }
+    .akordeon-heading { padding-top: 5px !important; font-size: 15px !important; margin-left:0px!important;}
+    .TTaxBlogTitle h3 { font-size: 18px; }
+    .TTaxBlog h4 { font-size: 15px; padding-top: 0px; margin-bottom: 0px; }
+    .TTaxBlog p { font-size: 14px; line-height: 20px; margin-bottom: 0px !important; }
+    .mTop18 { margin-top: 12px; }
+    .supportico ul li span { font-size: 12px !important; }
+    .image_1 { width: 30px; }
+    .supportico ul { padding: 8px; }
+    .TTaxWork { min-height: inherit; }
+    .irslogo { margin: 15px auto 20px auto; }
+    .HomeBannerContent h3 { margin-bottom: 10px; }
+    .app_download img { width: 130px; }
+    .left_spacce { margin-left: 15px; }
+    .HomeBannerContent h3 { font-size: 20px; }
+    .mt30 { margin-top: 20px; }
+    .why_should_pay h2 { margin-bottom: 10px; }
+    .mt10 { margin-top: 0px; }
+    .mobile_spce { margin-top: 20px; }
+    .akordeon-item .akordeon-item-body { width: 100%; }
+    .akordeon-icon { margin: 0px 0 0 0 !important; }
+    .akordeon-item.expanded .akordeon-icon span { top: -15px !important; }
+    .akordeon-item.expanded .akordeon-icon span { top: -16px; }
+    .akordeon-icon span { top: -11px !important; }
+    .TTaxVideosFiling h3 { margin-bottom: 3px; font-size: 15px; }
+    #blog h2 { margin-bottom: 15px; }
+    .navbar-nav { margin-top: 0; }
+    .app_download img { width: 100px; }
+    .mTopp-1 { margin-top: 14px; width: 42%; }.FootWrapper{    line-height: 1.6;}
+    .video{margin-top:20px;}
+    .list-unstyled {padding-left: 0px;list-style: none;}
+    h3{font-size:16px;}
+    .box img {width:60px;}
+    .font {font-size:18px !important;}
+     .hidden-xs {display:none;
+    }
+     .modal-backdrop {display:none; }
+     }
+
+@media only screen and (max-width:500px) {
+}
+
+@media only screen and (max-width:400px) {
+    /*.navbar { padding-bottom: 40px !important; }*/
+    /*.logotp { width: initial !important; margin: 0px !important; }*/
+    .irs-icon { display: none !important; }
+    .nav > li { position: relative; display: block; width: 100% !important; }
+    /*.navbar-nav { margin: 7.5px -15px; margin-top: 35px; }*/
+    /*.TTaxVideosFiling { margin-left: 20px !important; }*/
+    /*.supportico ul li span { float: left; line-height: 25px; padding-left: 17px; }
+    .supportico ul li span { float: none !important; line-height: 25px; padding-left: 17px; }*/
+    .TTaxWork { min-height:0px; }
+}
+
+@media only screen and (max-width:360px) {
+    .irs-icon { display: none !important; }
+    .nav > li { position: relative; display: block; width: 100% !important; }
+    /*.supportico ul li span { float: left; line-height: 25px; padding-left: 17px; }*/
+    .left_spacce { margin-left: 0px; }
+}

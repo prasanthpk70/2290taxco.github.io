@@ -1,0 +1,85 @@
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #colorbox:before, #colorbox:after, #cboxWrapper, #cboxWrapper:before, #cboxWrapper:after, #cboxLoadedContent:before, #cboxLoadedContent:after
+{
+    box-sizing: content-box;
+    -webkit-box-sizing:content-box;
+    -ms-box-sizing:content-box;
+}
+#colorbox {position:absolute; top:0; left:0; z-index:9999; /*overflow:hidden;*/  background: url(Images/loading_Span.gif) no-repeat center center #eee;
+/* padding: 10px; */ border-radius:8px;
+box-shadow: 0 0 85px #000}
+#cboxOverlay{background:#000;position:fixed; top:0; left:0; width:100%; height:100%; z-index:9999; /*overflow:hidden;*/ }
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; /*overflow:hidden;*/}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{width:100%; /*display:block;  height:100%; */ border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+/* 
+    Example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    #colorbox
+    {
+        overflow: inherit !important;
+    }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #colorbox
+    {
+        overflow: inherit !important;
+    }
+}
+    /*#cboxTopLeft{width:21px; height:21px; background:url(images/colorbox/controls.png) -100px 0 no-repeat;}
+    #cboxTopRight{width:21px; height:21px; background:url(images/colorbox/controls.png) -129px 0 no-repeat;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(images/colorbox/controls.png) -100px -29px no-repeat;}
+    #cboxBottomRight{width:21px; height:21px; background:url(images/colorbox/controls.png) -129px -29px no-repeat;}
+    #cboxMiddleLeft{width:21px; background:url(images/colorbox/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(images/colorbox/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(images/colorbox/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(images/colorbox/border.png) 0 -29px repeat-x;}*/
+    #cboxContent{padding:10px 10px;}
+#cboxLoadedContent
+{
+    background: #eee; /*padding-bottom:60px;*/
+}
+#colorbox.withScroll #cboxLoadedContent
+{
+    background: #eee; /*padding-bottom:72px;*/
+    overflow-x:hidden !important;
+}
+        #cboxLoadedContent{/*margin-bottom:12px;*/}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0px; background:url(images/controls.png) -75px 0px no-repeat; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious.hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(images/controls.png) -50px 0px no-repeat; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext.hover{background-position:-50px -25px;}
+        #cboxLoadingOverlay{background:url(images/colorbox/loading_background.png) center center no-repeat;}
+        #cboxLoadingGraphic{background:url(images/colorbox/loading.gif) center center no-repeat;}
+        #cboxClose{position:absolute; top:-14px; right:-15px; background:url(../images/close.png) 0px 0px no-repeat;  width:31px; height:31px; text-indent:-9999px;border:none;}
+        #cboxClose:hover{background-position:0px -31px;background:url(../images/close.png) 0px 0px no-repeat;}
+        #colorbox #form_heading, #colorbox div#form_heading, #colorbox div#form_headingPop {
+color: #00aeef;
+font: bold 24px 'Roboto Condensed', Arial, Helvetica, sans-serif;
+overflow: hidden;
+line-height: 42px;
+margin-bottom: 7px;
+position: absolute;
+top: -40px !important;
+text-transform: uppercase;
+}
+.senpop {
+    background:none !important;
+    padding:0px !important;
+}

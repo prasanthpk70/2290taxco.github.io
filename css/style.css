@@ -1,0 +1,234 @@
+﻿@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+/* CSS Document */
+/* Reset Styles for All Tags */
+* { margin: 0px; padding: 0px; outline: none; }
+body { font-family: 'Roboto Condensed', sans-serif;; background: #fff; }
+header { width: 100%; margin: 0 auto; background-image: url(../images/head_bg.png); border-bottom: 8px solid #2c4169; }
+.hea { width: 100%; margin: 0 auto; background-image: url(../images/head_bg.png); border-bottom: 8px solid #2c4169; }
+.HomeHeader { width: 1170px; height: auto; margin: 0 auto; height: 85px; }
+.logo { background-image: url(../images/logo.png); width: 223px; height: 77px; }
+header { position: fixed; z-index: 111; }
+a { text-decoration: none; outline: none; }
+.nav { cursor: pointer; }
+.navigation { margin-top: 34px; }
+.nav li { margin: 0 0 0 3px; padding: 0; float: left; list-style-type: none; }
+.nav li a { padding: 34px 20px 29px 20px; font-weight: 500 !important; margin: 0 0 0 3px; font-size: 16px; text-decoration: none; text-align: center; line-height: 15px; color: #29384f !important; text-transform: uppercase; }
+.nav li a:hover { color: #01a8ec !important; }
+.nav li.active a { background-color: #01a8ec !important; color: #FFF !important; padding: 34px 20px 29px 20px; }
+.HomeBanner { background-image: url(../images/banner.jpg); width: 100%; min-height: 100vh; padding-top: 90px; background-size: cover; display: flex; align-items: center; }
+.HomeBannerContent { max-width: 1170px; height: auto; margin: 0 auto; }
+.TTaxUsers { background: rgba(255,255,255,0.7); max-width: 700px; min-height: 311px; margin: 0 auto; border-radius: 5px; padding: 20px; margin: 0px; }
+.irs-icon { position: absolute; width: 93px; height: 91px; background: url(../images/irs-icon.png); top: 115px; }
+.TTaxUsers h1 { color: #262626; font-size: 35px; text-transform: uppercase; text-align: center; padding: 10px 0px 0px 0px; line-height: 45px; font-weight: 600; }
+.TTaxUsers span { color: #044a9f; }
+.btn { padding-top: 19px; }
+.btnstyle1 {display:inline-block; background: #01a8ec; border: none; padding: 10px; margin: 0 auto; margin-bottom: 20px; color: #fff !important; font-family: roboto condensed; font-size: 19px; border-radius: 5px; cursor: pointer; }
+.btnstyle1 a { text-decoration: none; }
+.btnstyle1:hover { background: #0E0E0E; text-decoration: none; }
+.btnstyle2 {display:inline-block; background: #01a8ec; border: none; padding: 10px; margin: 0 auto; color: #fff !important; font-family: roboto condensed; font-size: 19px; border-radius: 5px; cursor: pointer; }
+.btnstyle2 a { text-decoration: none; }
+.btnstyle2:hover { background: #0E0E0E; text-decoration: none; }
+.TTaxUsers span.gettxt { color: #2c4169; }
+.AppIcons { margin: 0 auto; text-align: center; }
+.google { background-image: url(../images/google.png); width: 177px; height: 63px; float: left; }
+.app { background-image: url(../images/app.png); width: 177px; height: 63px; float: right; }
+.ExpressTTax { width: 100%; background-color: #fff; }
+.ExpressTTaxFiling { max-width: 1170px; margin: 0 auto; padding: 80px 0; }
+.heading { color: #ffa800; text-transform: uppercase; font-size: 14px; line-height: 36px; word-wrap: break-word; }
+.heading h2 { font-size: 30px; }
+.heading h2 span { color: #1c4e7f; font-size: 30px; }
+.orang_Text { color: #ffa800 !important; }
+.line1 { background-image: url(../images/line1.png); width: 570px; margin: 0 auto; height: 2px; margin-top: 10px; }
+.ExpressTTaxFilingText { margin-top: 15px; }
+.ExpressTTaxFilingText p { text-align: center; padding-top: 10px; line-height: 25px; font-size: 18px; }
+.ExpressTTaxFilingText p span { color: #59cfff; text-transform: uppercase; font-size: 20px; margin-top: 45px; font-weight: bold; text-align: center; }
+.heading1 { color: #1c4e7f; text-transform: uppercase; font-size: 14px; line-height: 36px; font-size: 22px; }
+.bg-2-main h2 span { color: #01a8ec; }
+.TTaxMy2290 { max-width: 520px; height: auto; float: none; padding: 15px 30px; }
+.TTax2290 { width: 180px; height: 180px; background: #01a8ec; -moz-border-radius: 90px; -webkit-border-radius: 90px; border-radius: 90px; margin: 0 auto; }
+.TTaxMy2290 h2 { color: #ffa800; text-align: center; font-size: 24px; text-transform: uppercase; font-weight: 600; margin: 26px 0px 10px 0px; }
+.TTaxMy2290 p { color: #fff; text-align: center; font-size: 18px; }
+.accodiantxt { color: #090909; text-align: left; font-size: 18px; line-height: 25px; }
+.videos { margin: 0 auto; width: 100%; }
+.TTaxVideosFiling h3 { margin-bottom: 10px; }
+.TTaxWork { /*background: url(../images/bg-3.jpg);*/ width: 100%; /*min-height: 694px;*/ background-size: cover; background: #fff; }
+.TTaxWork_Title { color: #1c4e7f; font-size: 30px; font-weight: 400; line-height: 35px; text-align: center; text-transform: uppercase; }
+.TTaxWork p span { color: #59cfff; text-transform: uppercase; font-size: 20px; padding-top: 59px; font-weight: bold; text-align: center; }
+.TTaxWork p { color: #090909; text-align: center; font-size: 18px; line-height: 25px; padding-top: 10px; }
+.Form2290 { background: url(../images/bg-4.jpg); width: 100%; background-size: cover; }
+.IRSForm { height: auto; }
+.IRSForm h2 { color: #fff; font-size: 30px; text-transform: uppercase; }
+.IRSForm p { color: #fff; text-align: center; font-size: 18px; line-height: 30px; padding-top: 10px; text-transform: none; }
+.IRSFormBtn { background: #043448; border: none; padding: 10px 20px; margin: 0 auto; color: #fff; font-family: roboto condensed; font-size: 19px; border-radius: 5px; cursor: pointer; font-weight: 500; }
+.IRSFormBtn:hover { background: #ee9517; text-decoration: none; }
+.TTaxProvider { /*background: url(../images/bg-5.jpg);*/ width: 100%; background: #fff; }
+.TTaxProviderContent { }
+.TTaxProviderContent h2 { color: #ffa800; font-size: 30px; text-transform: uppercase; }
+.TTaxProviderContent h2 span { font-size: 30px; text-transform: uppercase; margin-top: 30px; color: #1c4e7f; word-wrap: break-word; }
+.TTaxProviderContent p { font-size: 18px; text-align: center; line-height: 25px; color: #090909; }
+.AccordianTitle h2 { color: #2c4169; font-size: 30px; text-transform: uppercase; margin-top: 0px; }
+.AccordianTitle h2 span { color: #ee9517; }
+
+.faqclick { text-align: center; color: #2c4169; text-decoration: underline; cursor: pointer; font-size: 20px; padding-top: 25px; font-weight: bold; text-transform: uppercase; }
+.faqclick a:hover { color: #ee9517; }
+.faqclick a { color: #2c4169; }
+.bg-6-main h2 span { color: #4c6390; }
+#faq { background: #efefef; width: 100%; }
+.TTaxVideoTitle h2 span { color: #ffa800; }
+.TTaxVideoTitle h2 { color: #000; font-size: 30px; text-transform: uppercase; margin-top: 0px; }
+.TTaxVideosFiling { max-width: 300px; height: auto; line-height: 50px; font-size: 15px; margin: 0 auto; text-align: center; }
+.vid1 { background-image: url(../images/vid1.png); width: 294px; height: 258px; margin: 0 auto; text-align: center; }
+.vid1 img { border: none !important; }
+.vid2 { background-image: url(../images/vid2.png); width: 294px; height: 258px; margin: 0 auto; text-align: center; }
+.vid3 { background-image: url(../images/vid3.png); width: 294px; height: 258px; margin: 0 auto; text-align: center; }
+.playbtn { background-image: url(../images/playbtn.png); width: 84px; height: 84px; cursor: pointer; margin: 0 auto; position: absolute; top: 82px; left: 106px; }
+.playbtn:hover { background-image: url(../images/playbtn_hover.png); width: 84px; height: 84px; }
+#line2 { background-image: url(../images/line2.png); width: 875px; height: 2px; margin: 0 auto; margin-top: 10px; }
+.TTaxBlog { background: url(../images/bg-8.jpg); width: 100%; background-size: cover; }
+.TTaxBlogTitle h3 { color: #fff; text-transform: uppercase; font-size: 26px; margin-top: 30px; }
+.TTaxBlogTitle h2 { color: #fff; font-size: 30px; text-transform: uppercase; }
+.TTaxBlog h4 { color: #ffa800; text-align: center; font-size: 24px; padding-top: 25px; text-transform: uppercase; font-weight: 600; }
+.TTaxBlog p { color: #fff; padding-top: 10px; font-size: 19px; line-height: 25px; }
+.blogclick { text-align: center; color: #01a8ec; text-decoration: underline; cursor: pointer; font-size: 24px; padding-top: 17px; font-weight: bold; text-transform: uppercase; }
+.blogclick a:hover { color: #ffa800; }
+.blogclick a { color: #01a8ec; }
+.ContactTitle { color: #2c4169; text-transform: uppercase; font-size: 14px; line-height: 36px; font-size: 22px; }
+.ContactTitle h2 span { color: #ffa800; }
+.support { margin: 0 auto; border: 1px solid #2c4169; margin-top: 20px; }
+.supportico { margin: 0 auto; color: #2c4169; }
+.supportico ul li { list-style: none; width: 100%; display: flex; align-items: center; margin-bottom: 15px; }
+.supportico ul { padding: 17px; }
+.supportico ul li img { float: left; }
+.supportico ul li span { float: left; line-height: 60px; padding-left: 17px; font-size: 18px; }
+.supportico ul li span b { color: #ffa800; }
+.bg-9-main #supportico span { color: #090909; }
+/*.ContactUs{
+    min-height:810px;
+}*/
+footer { background: #111b2f; }
+.FootWrapper { max-width: 1170px; margin: 0 auto; padding-top: 15px; padding-bottom: 10px; line-height: 25px; }
+.footercont span a { color: #ffa800; text-decoration: underline; cursor: pointer; }
+#socialmedia { width: 100%; text-align: center; padding-top: 8px; cursor: pointer; }
+#socialmedia ul li { list-style: none; display: inline; }
+.footercont { color: #fff; text-align: center; }
+.white-popup { position: relative; background: #FFF; padding: 20px; width: auto; max-width: 500px; margin: 20px auto; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+.floatL { float: none; }
+.floatR { float: none; }
+.taL { text-align: left; }
+.taC { text-align: center; }
+.taR { text-align: right; }
+.taJ { text-align: justify; }
+.mTop4 { margin-top: 4px; }
+.mTop18 { margin-top: 18px; }
+.mTop30 { margin-top: 30px; }
+.mTop37 { margin-top: 37px; }
+.mTop45 { margin-top: 45px; }
+.clear { clear: both; }
+.po-rel { position: relative; }
+.spacer95 { height: 95px; }
+iframe { height: 350px; width: 100%; }
+.TaxBlog a { background: #01a8ec; padding: 2px 13px; color: #fff; border-radius: 2px;display:inline-block;margin-top:15px; }
+.TaxBlog a:hover { background: #ffa800; color: #000;text-decoration:none; }
+.TaxBlog p { text-align: center; }
+.TTaxProvider a, .ExpressTTax a, .IRSForm p a { color: #ffa800; }
+.TTaxProvider a:hover, .ExpressTTax a:hover { color: #59cfff; }
+.TTaxWork a { color: #01a8ec; }
+.TTaxWork{background:#efefef;}
+.TTaxWork a:hover { color: #00597d; }
+.IRSForm p a:hover { color: #000; }
+.back-to-top { background: none; margin: 0; position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; z-index: 100; display: none; text-decoration: none; color: #000; text-align: center; padding: 8px; /*border-radius:2px;
+    background-color: #666;*/ }
+/*.glyphicon-open{
+    font-size:22px;
+    color:#fff;
+}*/
+.back-to-top:hover { opacity: 0.8; }
+.TTaxVideosFiling img { max-width: 250px; height: 200px; border: 3px solid #eee; }
+.logotp { width: initial !important; margin: 0px !important; }
+.ftsz { font-size: 18px; }
+#back-top { position: fixed; bottom: 0px; right: 10px; z-index: 999; }
+#back-top a { color: #fff; font-size: 30px; display: block; height: 40px; transition: all 1s ease 0s; width: 40px; border-radius: 50px; -ms-transition: 1s; -webkit-transition: 1s; opacity: 0.9; -moz-transition: 1s; transition: 1s; background: #3173ED; line-height: 20px; text-align: center; padding-top: 9px; }
+#back-top a:hover { background: #5D5D5D; }
+.mt25 { margin-top: 25px; }
+.TTaxBlog p { margin-bottom: 30px; }
+.navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background: #01a8ec; }
+.navbar-default .navbar-toggle { border-color: #01a8ec; }
+.navbar-default .navbar-toggle .icon-bar { background: #fff; }
+h1, h2 { font-weight: 500; }
+.footercont { margin-bottom: 0px; }
+.navbar-brand { padding-top: 2px; padding-bottom: 0px; }
+#bs-example-navbar-collapse-1 { margin: initial; }
+h2 { margin-top: 0px; }
+.navbar-nav li a:focus { outline: inherit; }
+.mail { color: #01a8ec !important; }
+.mail:hover, .mail:focus { color: #ffa800 !important; }
+.irslogo { background: rgba(0,0,0,0) url(../images/irslogo.png) no-repeat scroll 0 0; height: 60px; width: 60px; display: block; margin: 0px auto 20px auto; }
+.left_spacce { display: inline-block; margin-left: 20px; }
+.HomeBannerContent h3 { font-weight: 400; margin-bottom: 20px; }
+.why_should_pay { background: url(../images/bg-5.jpg); background-size: cover; }
+.white_color { color: #fff !important; }
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; }
+.mt15 { margin-top: 15px; }
+.mt30 { margin-top: 35px; }
+.pbottom { padding-bottom: 0px; }
+.why_should_pay h2 { margin-bottom: 25px; }
+ #mainNav .row{margin-bottom:0px;}
+ .line{text-decoration-line: none !IMPORTANT;}
+ .Form2290 .IRSFormBtn{display:inline-block;}
+ .blue{color:#59cfff !important;font-weight:bold;}
+ .list-unstyled {padding-left: 60px;list-style: none;}
+ .unordered_list li {padding: 7px 0px 7px 30px;font-size: 18px;position: relative;/* color: #111; */font-family: Roboto Condensed, sans-serif;}
+ .left{text-align:left !important;}
+ .unordered_list li:before {position: absolute;left: 0px;top: 9px;content: "";background: url(../images/arrow.png)no-repeat left 0px;width: 20px;height: 20px;}
+.video{display:flex;align-items:center;}
+/*.box .col-md-6{width:49%;}*/
+.box img{text-align:center !important;width:82px;margin-bottom:10px;}
+.log{padding: 20px 15px; background: #FFF; box-shadow: 0px 0px 10px rgba(0,0,0,0.15); border: 1px solid #ddd; margin: 5px;}
+.bottom_ad_section { background: #f2f2f2; border: 1px solid #189beb; font-size: 20px; padding: 10px 15px; border-bottom: 0; box-shadow: 0 0 20px rgba(0,0,0,.3); border-radius: 3px 3px 0px 0px; }
+.bottom_fixed_bar { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999; transition: all .4s linear; -webkit-transition: all .4s linear; }
+.ad_close { position: absolute; right: -15px; top: -12px; background: #e04949; border-radius: 200px; width: 24px; height: 24px; content: ""; color: #fff !important; font-size: 15px; font-weight: 600; line-height: 24px; cursor: pointer; text-align: center; }
+#popup .btnstyle1{margin-bottom:0px !important;}
+.ad_row { display: flex; align-items: center; }
+.foot_adpopup{display:none !important;}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {max-height:auto !important;}
+.font {font-size:22px !important;}
+a:hover {text-decoration:none;}
+.stky-caption span {font-size:16px; font-weight:500;}
+.MboxClose {
+    background: url(../images/close.png) no-repeat;
+    border: medium none;
+    height: 31px;
+    position: absolute;
+    right: -15px;
+    text-indent: -9999px;
+    top: -10px;
+    width: 31px;
+    z-index: 9;
+}
+.support_forms li {
+    color: #777;
+    text-align: left;
+    list-style: none;
+    background: url(../images/sd.png)no-repeat -1px 9px;
+    line-height: initial;
+    list-style: none;
+    padding: 8px 0px 7px 20px;
+    position: relative;
+    display: inline;
+    margin-left: 50px;
+}
+.ext ul{
+    padding-left: 0px !important;
+    list-style: none;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 259px auto !important;
+}
+.paddingryt{padding-right:0px !important;}
+.modal-open {  overflow-x: hidden; overflow-y: auto; }
